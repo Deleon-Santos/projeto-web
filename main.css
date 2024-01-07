@@ -1,0 +1,31 @@
+body{
+    font-family:monospace;
+}/*o elemento  não ordenada serão moldados conforme os parametro de estilo chave e valor(fornt-family:helvetica)*/
+ul{
+    font-family:helvetica;
+}/*A PARTIR DAQUI VOCE JA PODE COSTUMIZAR SUA FONTES*/
+li{
+    list-style:cicle;
+}
+.list{
+    list-style:square;
+}
+#msg{
+    font-family:monospace;
+}
+.light-theme{
+    color:#000000;
+    background:#00ff00
+}
+:root{
+    green:#00ff00; x
+    white:#ffffff;
+    black:#000000
+
+}
+.light-theme{
+    bg:var(--green);
+}
+.dark-theme{
+    bg:var(--black);
+}
