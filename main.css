@@ -10,22 +10,40 @@ li{
 .list{
     list-style:square;
 }
-#msg{
-    font-family:monospace;
-}
+
 .light-theme{
     color:#000000;
     background:#00ff00
 }
 :root{
-    green:#00ff00; x
-    white:#ffffff;
-    black:#000000
+    --green:#00ff00; 
+    --white:#ffffff;
+    --black:#000000;
 
 }
+.btn{
+    position:absolute;
+    top: 20pix;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    color:var(--fontcolor);
+    background:var(--btnbg);
+}
+
+.btn{outline-style:none;}
+
 .light-theme{
-    bg:var(--green);
+    --bg: var(--green);
+    --fontColor:var(--black);
+    --btnbg:var(--black);
+    --btnFontColor:var(--white);
 }
 .dark-theme{
-    bg:var(--black);
+    --bg: var(--black);
+    --fontColor:var(--green);
+    --btnbg:var(--white);
+    --btnFontColor:var(--black);
 }
